@@ -1,0 +1,555 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\Soft_Projects\\Node\\node.exe',
+1 verbose cli   'D:\\Soft_Projects\\Node\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'extract-text-webpack-plugin',
+1 verbose cli   '--save-dev' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.3
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData extract-text-webpack-plugin
+8 silly fetchNamedPackageData extract-text-webpack-plugin
+9 silly mapToRegistry name extract-text-webpack-plugin
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry http://registry.cnpmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'extract-text-webpack-plugin',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'extract-text-webpack-plugin',
+12 silly mapToRegistry   name: 'extract-text-webpack-plugin',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri http://registry.cnpmjs.org/extract-text-webpack-plugin
+14 verbose request uri http://registry.cnpmjs.org/extract-text-webpack-plugin
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 11:31:09
+17 verbose request id f4911c162daeee78
+18 http request GET http://registry.cnpmjs.org/extract-text-webpack-plugin
+19 http 200 http://registry.cnpmjs.org/extract-text-webpack-plugin
+20 verbose headers { server: 'nginx/1.4.6 (Ubuntu)',
+20 verbose headers   date: 'Thu, 15 Mar 2018 03:31:12 GMT',
+20 verbose headers   'content-type': 'application/json; charset=utf-8',
+20 verbose headers   'transfer-encoding': 'chunked',
+20 verbose headers   connection: 'keep-alive',
+20 verbose headers   'x-current-requests': '1',
+20 verbose headers   'x-readtime': '79',
+20 verbose headers   'strict-transport-security': 'max-age=15768000',
+20 verbose headers   'content-encoding': 'gzip' }
+21 silly get cb [ 200,
+21 silly get   { server: 'nginx/1.4.6 (Ubuntu)',
+21 silly get     date: 'Thu, 15 Mar 2018 03:31:12 GMT',
+21 silly get     'content-type': 'application/json; charset=utf-8',
+21 silly get     'transfer-encoding': 'chunked',
+21 silly get     connection: 'keep-alive',
+21 silly get     'x-current-requests': '1',
+21 silly get     'x-readtime': '79',
+21 silly get     'strict-transport-security': 'max-age=15768000',
+21 silly get     'content-encoding': 'gzip' } ]
+22 verbose get saving extract-text-webpack-plugin to C:\Users\Shinea\AppData\Roaming\npm-cache\registry.cnpmjs.org\extract-text-webpack-plugin\.cache.json
+23 verbose correctMkdir C:\Users\Shinea\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+24 silly install normalizeTree
+25 silly loadCurrentTree Finishing
+26 silly loadIdealTree Starting
+27 silly install loadIdealTree
+28 silly cloneCurrentTree Starting
+29 silly install cloneCurrentTreeToIdealTree
+30 silly cloneCurrentTree Finishing
+31 silly loadShrinkwrap Starting
+32 silly install loadShrinkwrap
+33 silly loadShrinkwrap Finishing
+34 silly loadAllDepsIntoIdealTree Starting
+35 silly install loadAllDepsIntoIdealTree
+36 silly resolveWithNewModule extract-text-webpack-plugin@3.0.2 checking installable status
+37 silly cache add args [ 'extract-text-webpack-plugin', null ]
+38 verbose cache add spec extract-text-webpack-plugin
+39 silly cache add parsed spec Result {
+39 silly cache add   raw: 'extract-text-webpack-plugin',
+39 silly cache add   scope: null,
+39 silly cache add   escapedName: 'extract-text-webpack-plugin',
+39 silly cache add   name: 'extract-text-webpack-plugin',
+39 silly cache add   rawSpec: '',
+39 silly cache add   spec: 'latest',
+39 silly cache add   type: 'tag' }
+40 silly addNamed extract-text-webpack-plugin@latest
+41 verbose addNamed "latest" is being treated as a dist-tag for extract-text-webpack-plugin
+42 info addNameTag [ 'extract-text-webpack-plugin', 'latest' ]
+43 silly mapToRegistry name extract-text-webpack-plugin
+44 silly mapToRegistry using default registry
+45 silly mapToRegistry registry http://registry.cnpmjs.org/
+46 silly mapToRegistry data Result {
+46 silly mapToRegistry   raw: 'extract-text-webpack-plugin',
+46 silly mapToRegistry   scope: null,
+46 silly mapToRegistry   escapedName: 'extract-text-webpack-plugin',
+46 silly mapToRegistry   name: 'extract-text-webpack-plugin',
+46 silly mapToRegistry   rawSpec: '',
+46 silly mapToRegistry   spec: 'latest',
+46 silly mapToRegistry   type: 'tag' }
+47 silly mapToRegistry uri http://registry.cnpmjs.org/extract-text-webpack-plugin
+48 verbose addNameTag registry:http://registry.cnpmjs.org/extract-text-webpack-plugin not in flight; fetching
+49 verbose get http://registry.cnpmjs.org/extract-text-webpack-plugin not expired, no request
+50 silly addNameTag next cb for extract-text-webpack-plugin with tag latest
+51 silly addNamed extract-text-webpack-plugin@3.0.2
+52 verbose addNamed "3.0.2" is a plain semver version for extract-text-webpack-plugin
+53 silly cache afterAdd extract-text-webpack-plugin@3.0.2
+54 verbose afterAdd C:\Users\Shinea\AppData\Roaming\npm-cache\extract-text-webpack-plugin\3.0.2\package\package.json not in flight; writing
+55 verbose correctMkdir C:\Users\Shinea\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+56 verbose afterAdd C:\Users\Shinea\AppData\Roaming\npm-cache\extract-text-webpack-plugin\3.0.2\package\package.json written
+57 silly fetchNamedPackageData async
+58 silly mapToRegistry name async
+59 silly mapToRegistry using default registry
+60 silly mapToRegistry registry http://registry.cnpmjs.org/
+61 silly mapToRegistry data Result {
+61 silly mapToRegistry   raw: 'async',
+61 silly mapToRegistry   scope: null,
+61 silly mapToRegistry   escapedName: 'async',
+61 silly mapToRegistry   name: 'async',
+61 silly mapToRegistry   rawSpec: '',
+61 silly mapToRegistry   spec: 'latest',
+61 silly mapToRegistry   type: 'tag' }
+62 silly mapToRegistry uri http://registry.cnpmjs.org/async
+63 silly fetchNamedPackageData schema-utils
+64 silly mapToRegistry name schema-utils
+65 silly mapToRegistry using default registry
+66 silly mapToRegistry registry http://registry.cnpmjs.org/
+67 silly mapToRegistry data Result {
+67 silly mapToRegistry   raw: 'schema-utils',
+67 silly mapToRegistry   scope: null,
+67 silly mapToRegistry   escapedName: 'schema-utils',
+67 silly mapToRegistry   name: 'schema-utils',
+67 silly mapToRegistry   rawSpec: '',
+67 silly mapToRegistry   spec: 'latest',
+67 silly mapToRegistry   type: 'tag' }
+68 silly mapToRegistry uri http://registry.cnpmjs.org/schema-utils
+69 verbose request uri http://registry.cnpmjs.org/async
+70 verbose request no auth needed
+71 info attempt registry request try #1 at 11:31:15
+72 http request GET http://registry.cnpmjs.org/async
+73 verbose request uri http://registry.cnpmjs.org/schema-utils
+74 verbose request no auth needed
+75 info attempt registry request try #1 at 11:31:15
+76 http request GET http://registry.cnpmjs.org/schema-utils
+77 http 200 http://registry.cnpmjs.org/schema-utils
+78 verbose headers { server: 'nginx/1.4.6 (Ubuntu)',
+78 verbose headers   date: 'Thu, 15 Mar 2018 03:31:14 GMT',
+78 verbose headers   'content-type': 'application/json; charset=utf-8',
+78 verbose headers   'transfer-encoding': 'chunked',
+78 verbose headers   connection: 'keep-alive',
+78 verbose headers   'x-current-requests': '1',
+78 verbose headers   'x-readtime': '99',
+78 verbose headers   'strict-transport-security': 'max-age=15768000',
+78 verbose headers   'content-encoding': 'gzip' }
+79 silly get cb [ 200,
+79 silly get   { server: 'nginx/1.4.6 (Ubuntu)',
+79 silly get     date: 'Thu, 15 Mar 2018 03:31:14 GMT',
+79 silly get     'content-type': 'application/json; charset=utf-8',
+79 silly get     'transfer-encoding': 'chunked',
+79 silly get     connection: 'keep-alive',
+79 silly get     'x-current-requests': '1',
+79 silly get     'x-readtime': '99',
+79 silly get     'strict-transport-security': 'max-age=15768000',
+79 silly get     'content-encoding': 'gzip' } ]
+80 verbose get saving schema-utils to C:\Users\Shinea\AppData\Roaming\npm-cache\registry.cnpmjs.org\schema-utils\.cache.json
+81 verbose correctMkdir C:\Users\Shinea\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+82 silly resolveWithNewModule schema-utils@0.3.0 checking installable status
+83 silly cache add args [ 'schema-utils@^0.3.0', null ]
+84 verbose cache add spec schema-utils@^0.3.0
+85 silly cache add parsed spec Result {
+85 silly cache add   raw: 'schema-utils@^0.3.0',
+85 silly cache add   scope: null,
+85 silly cache add   escapedName: 'schema-utils',
+85 silly cache add   name: 'schema-utils',
+85 silly cache add   rawSpec: '^0.3.0',
+85 silly cache add   spec: '>=0.3.0 <0.4.0',
+85 silly cache add   type: 'range' }
+86 silly addNamed schema-utils@>=0.3.0 <0.4.0
+87 verbose addNamed ">=0.3.0 <0.4.0" is a valid semver range for schema-utils
+88 silly addNameRange { name: 'schema-utils', range: '>=0.3.0 <0.4.0', hasData: false }
+89 silly mapToRegistry name schema-utils
+90 silly mapToRegistry using default registry
+91 silly mapToRegistry registry http://registry.cnpmjs.org/
+92 silly mapToRegistry data Result {
+92 silly mapToRegistry   raw: 'schema-utils',
+92 silly mapToRegistry   scope: null,
+92 silly mapToRegistry   escapedName: 'schema-utils',
+92 silly mapToRegistry   name: 'schema-utils',
+92 silly mapToRegistry   rawSpec: '',
+92 silly mapToRegistry   spec: 'latest',
+92 silly mapToRegistry   type: 'tag' }
+93 silly mapToRegistry uri http://registry.cnpmjs.org/schema-utils
+94 verbose addNameRange registry:http://registry.cnpmjs.org/schema-utils not in flight; fetching
+95 verbose get http://registry.cnpmjs.org/schema-utils not expired, no request
+96 silly addNameRange number 2 { name: 'schema-utils', range: '>=0.3.0 <0.4.0', hasData: true }
+97 silly addNameRange versions [ 'schema-utils',
+97 silly addNameRange   [ '0.4.5',
+97 silly addNameRange     '0.4.4',
+97 silly addNameRange     '0.4.3',
+97 silly addNameRange     '0.4.2',
+97 silly addNameRange     '0.4.1',
+97 silly addNameRange     '0.4.0',
+97 silly addNameRange     '0.3.0',
+97 silly addNameRange     '0.2.1',
+97 silly addNameRange     '0.1.0' ] ]
+98 silly addNamed schema-utils@0.3.0
+99 verbose addNamed "0.3.0" is a plain semver version for schema-utils
+100 silly cache afterAdd schema-utils@0.3.0
+101 verbose afterAdd C:\Users\Shinea\AppData\Roaming\npm-cache\schema-utils\0.3.0\package\package.json not in flight; writing
+102 verbose correctMkdir C:\Users\Shinea\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+103 verbose afterAdd C:\Users\Shinea\AppData\Roaming\npm-cache\schema-utils\0.3.0\package\package.json written
+104 http 200 http://registry.cnpmjs.org/async
+105 verbose headers { server: 'nginx/1.4.6 (Ubuntu)',
+105 verbose headers   date: 'Thu, 15 Mar 2018 03:31:13 GMT',
+105 verbose headers   'content-type': 'application/json; charset=utf-8',
+105 verbose headers   'transfer-encoding': 'chunked',
+105 verbose headers   connection: 'keep-alive',
+105 verbose headers   'x-current-requests': '1',
+105 verbose headers   'x-readtime': '73',
+105 verbose headers   'strict-transport-security': 'max-age=15768000',
+105 verbose headers   'content-encoding': 'gzip' }
+106 silly get cb [ 200,
+106 silly get   { server: 'nginx/1.4.6 (Ubuntu)',
+106 silly get     date: 'Thu, 15 Mar 2018 03:31:13 GMT',
+106 silly get     'content-type': 'application/json; charset=utf-8',
+106 silly get     'transfer-encoding': 'chunked',
+106 silly get     connection: 'keep-alive',
+106 silly get     'x-current-requests': '1',
+106 silly get     'x-readtime': '73',
+106 silly get     'strict-transport-security': 'max-age=15768000',
+106 silly get     'content-encoding': 'gzip' } ]
+107 verbose get saving async to C:\Users\Shinea\AppData\Roaming\npm-cache\registry.cnpmjs.org\async\.cache.json
+108 verbose correctMkdir C:\Users\Shinea\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+109 silly resolveWithNewModule async@2.6.0 checking installable status
+110 silly cache add args [ 'async@^2.4.1', null ]
+111 verbose cache add spec async@^2.4.1
+112 silly cache add parsed spec Result {
+112 silly cache add   raw: 'async@^2.4.1',
+112 silly cache add   scope: null,
+112 silly cache add   escapedName: 'async',
+112 silly cache add   name: 'async',
+112 silly cache add   rawSpec: '^2.4.1',
+112 silly cache add   spec: '>=2.4.1 <3.0.0',
+112 silly cache add   type: 'range' }
+113 silly addNamed async@>=2.4.1 <3.0.0
+114 verbose addNamed ">=2.4.1 <3.0.0" is a valid semver range for async
+115 silly addNameRange { name: 'async', range: '>=2.4.1 <3.0.0', hasData: false }
+116 silly mapToRegistry name async
+117 silly mapToRegistry using default registry
+118 silly mapToRegistry registry http://registry.cnpmjs.org/
+119 silly mapToRegistry data Result {
+119 silly mapToRegistry   raw: 'async',
+119 silly mapToRegistry   scope: null,
+119 silly mapToRegistry   escapedName: 'async',
+119 silly mapToRegistry   name: 'async',
+119 silly mapToRegistry   rawSpec: '',
+119 silly mapToRegistry   spec: 'latest',
+119 silly mapToRegistry   type: 'tag' }
+120 silly mapToRegistry uri http://registry.cnpmjs.org/async
+121 verbose addNameRange registry:http://registry.cnpmjs.org/async not in flight; fetching
+122 verbose get http://registry.cnpmjs.org/async not expired, no request
+123 silly addNameRange number 2 { name: 'async', range: '>=2.4.1 <3.0.0', hasData: true }
+124 silly addNameRange versions [ 'async',
+124 silly addNameRange   [ '2.6.0',
+124 silly addNameRange     '2.5.0',
+124 silly addNameRange     '2.4.1',
+124 silly addNameRange     '2.4.0',
+124 silly addNameRange     '2.3.0',
+124 silly addNameRange     '2.2.0',
+124 silly addNameRange     '2.1.5',
+124 silly addNameRange     '2.1.4',
+124 silly addNameRange     '2.1.2',
+124 silly addNameRange     '2.1.1',
+124 silly addNameRange     '2.1.0',
+124 silly addNameRange     '2.0.1',
+124 silly addNameRange     '2.0.0',
+124 silly addNameRange     '2.0.0-rc.6',
+124 silly addNameRange     '2.0.0-rc.5',
+124 silly addNameRange     '2.0.0-rc.4',
+124 silly addNameRange     '2.0.0-rc.3',
+124 silly addNameRange     '2.0.0-rc.2',
+124 silly addNameRange     '2.0.0-rc.1',
+124 silly addNameRange     '2.0.0-alpha.0',
+124 silly addNameRange     '1.5.2',
+124 silly addNameRange     '1.5.1',
+124 silly addNameRange     '1.5.0',
+124 silly addNameRange     '1.4.2',
+124 silly addNameRange     '1.4.1',
+124 silly addNameRange     '1.4.0',
+124 silly addNameRange     '1.3.0',
+124 silly addNameRange     '1.2.1',
+124 silly addNameRange     '1.1.1',
+124 silly addNameRange     '1.2.0',
+124 silly addNameRange     '1.1.0',
+124 silly addNameRange     '1.0.0',
+124 silly addNameRange     '0.9.2',
+124 silly addNameRange     '0.9.0',
+124 silly addNameRange     '0.8.0',
+124 silly addNameRange     '0.7.0',
+124 silly addNameRange     '0.6.2',
+124 silly addNameRange     '0.6.1',
+124 silly addNameRange     '0.6.0',
+124 silly addNameRange     '0.5.0',
+124 silly addNameRange     '0.4.1',
+124 silly addNameRange     '0.4.0',
+124 silly addNameRange     '0.3.0',
+124 silly addNameRange     '0.2.10',
+124 silly addNameRange     '0.2.9',
+124 silly addNameRange     '0.2.8',
+124 silly addNameRange     '0.2.7',
+124 silly addNameRange     '0.2.6',
+124 silly addNameRange     '0.2.5',
+124 silly addNameRange     '0.2.4',
+124 silly addNameRange     '0.2.3',
+124 silly addNameRange     '0.2.2',
+124 silly addNameRange     '0.2.1',
+124 silly addNameRange     '0.2.0',
+124 silly addNameRange     '0.1.22',
+124 silly addNameRange     '0.1.21',
+124 silly addNameRange     '0.1.20',
+124 silly addNameRange     '0.1.19',
+124 silly addNameRange     '0.1.18',
+124 silly addNameRange     '0.1.17',
+124 silly addNameRange     '0.1.16',
+124 silly addNameRange     '0.1.15',
+124 silly addNameRange     '0.1.14',
+124 silly addNameRange     '0.1.13',
+124 silly addNameRange     '0.1.12',
+124 silly addNameRange     '0.1.11',
+124 silly addNameRange     '0.1.10',
+124 silly addNameRange     '0.1.9',
+124 silly addNameRange     '0.1.8',
+124 silly addNameRange     '0.1.2',
+124 silly addNameRange     '0.1.7',
+124 silly addNameRange     '0.1.6',
+124 silly addNameRange     '0.1.5',
+124 silly addNameRange     '0.1.4',
+124 silly addNameRange     '0.1.3',
+124 silly addNameRange     '0.1.1',
+124 silly addNameRange     '0.1.0' ] ]
+125 silly addNamed async@2.6.0
+126 verbose addNamed "2.6.0" is a plain semver version for async
+127 silly cache afterAdd async@2.6.0
+128 verbose afterAdd C:\Users\Shinea\AppData\Roaming\npm-cache\async\2.6.0\package\package.json not in flight; writing
+129 verbose correctMkdir C:\Users\Shinea\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+130 verbose afterAdd C:\Users\Shinea\AppData\Roaming\npm-cache\async\2.6.0\package\package.json written
+131 silly fetchNamedPackageData ajv
+132 silly mapToRegistry name ajv
+133 silly mapToRegistry using default registry
+134 silly mapToRegistry registry http://registry.cnpmjs.org/
+135 silly mapToRegistry data Result {
+135 silly mapToRegistry   raw: 'ajv',
+135 silly mapToRegistry   scope: null,
+135 silly mapToRegistry   escapedName: 'ajv',
+135 silly mapToRegistry   name: 'ajv',
+135 silly mapToRegistry   rawSpec: '',
+135 silly mapToRegistry   spec: 'latest',
+135 silly mapToRegistry   type: 'tag' }
+136 silly mapToRegistry uri http://registry.cnpmjs.org/ajv
+137 verbose request uri http://registry.cnpmjs.org/ajv
+138 verbose request no auth needed
+139 info attempt registry request try #1 at 11:31:16
+140 http request GET http://registry.cnpmjs.org/ajv
+141 http 200 http://registry.cnpmjs.org/ajv
+142 verbose headers { server: 'nginx/1.4.6 (Ubuntu)',
+142 verbose headers   date: 'Thu, 15 Mar 2018 03:31:14 GMT',
+142 verbose headers   'content-type': 'application/json; charset=utf-8',
+142 verbose headers   'transfer-encoding': 'chunked',
+142 verbose headers   connection: 'keep-alive',
+142 verbose headers   'x-current-requests': '1',
+142 verbose headers   'x-readtime': '285',
+142 verbose headers   'strict-transport-security': 'max-age=15768000',
+142 verbose headers   'content-encoding': 'gzip' }
+143 silly get cb [ 200,
+143 silly get   { server: 'nginx/1.4.6 (Ubuntu)',
+143 silly get     date: 'Thu, 15 Mar 2018 03:31:14 GMT',
+143 silly get     'content-type': 'application/json; charset=utf-8',
+143 silly get     'transfer-encoding': 'chunked',
+143 silly get     connection: 'keep-alive',
+143 silly get     'x-current-requests': '1',
+143 silly get     'x-readtime': '285',
+143 silly get     'strict-transport-security': 'max-age=15768000',
+143 silly get     'content-encoding': 'gzip' } ]
+144 verbose get saving ajv to C:\Users\Shinea\AppData\Roaming\npm-cache\registry.cnpmjs.org\ajv\.cache.json
+145 verbose correctMkdir C:\Users\Shinea\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+146 silly resolveWithNewModule ajv@5.5.2 checking installable status
+147 silly cache add args [ 'ajv@^5.0.0', null ]
+148 verbose cache add spec ajv@^5.0.0
+149 silly cache add parsed spec Result {
+149 silly cache add   raw: 'ajv@^5.0.0',
+149 silly cache add   scope: null,
+149 silly cache add   escapedName: 'ajv',
+149 silly cache add   name: 'ajv',
+149 silly cache add   rawSpec: '^5.0.0',
+149 silly cache add   spec: '>=5.0.0 <6.0.0',
+149 silly cache add   type: 'range' }
+150 silly addNamed ajv@>=5.0.0 <6.0.0
+151 verbose addNamed ">=5.0.0 <6.0.0" is a valid semver range for ajv
+152 silly addNameRange { name: 'ajv', range: '>=5.0.0 <6.0.0', hasData: false }
+153 silly mapToRegistry name ajv
+154 silly mapToRegistry using default registry
+155 silly mapToRegistry registry http://registry.cnpmjs.org/
+156 silly mapToRegistry data Result {
+156 silly mapToRegistry   raw: 'ajv',
+156 silly mapToRegistry   scope: null,
+156 silly mapToRegistry   escapedName: 'ajv',
+156 silly mapToRegistry   name: 'ajv',
+156 silly mapToRegistry   rawSpec: '',
+156 silly mapToRegistry   spec: 'latest',
+156 silly mapToRegistry   type: 'tag' }
+157 silly mapToRegistry uri http://registry.cnpmjs.org/ajv
+158 verbose addNameRange registry:http://registry.cnpmjs.org/ajv not in flight; fetching
+159 verbose get http://registry.cnpmjs.org/ajv not expired, no request
+160 silly addNameRange number 2 { name: 'ajv', range: '>=5.0.0 <6.0.0', hasData: true }
+161 silly addNameRange versions [ 'ajv',
+161 silly addNameRange   [ '6.2.1',
+161 silly addNameRange     '6.2.0',
+161 silly addNameRange     '6.1.1',
+161 silly addNameRange     '6.1.0',
+161 silly addNameRange     '6.0.1',
+161 silly addNameRange     '6.0.0',
+161 silly addNameRange     '5.5.2',
+161 silly addNameRange     '6.0.0-rc.1',
+161 silly addNameRange     '5.5.1',
+161 silly addNameRange     '6.0.0-rc.0',
+161 silly addNameRange     '5.5.0',
+161 silly addNameRange     '5.4.0',
+161 silly addNameRange     '6.0.0-beta.2',
+161 silly addNameRange     '6.0.0-beta.1',
+161 silly addNameRange     '6.0.0-beta.0',
+161 silly addNameRange     '5.3.0',
+161 silly addNameRange     '5.2.5',
+161 silly addNameRange     '5.2.4',
+161 silly addNameRange     '5.2.3',
+161 silly addNameRange     '5.2.2',
+161 silly addNameRange     '5.2.1',
+161 silly addNameRange     '5.2.0',
+161 silly addNameRange     '5.1.6',
+161 silly addNameRange     '5.1.5',
+161 silly addNameRange     '5.1.4',
+161 silly addNameRange     '5.1.3',
+161 silly addNameRange     '5.1.2',
+161 silly addNameRange     '5.1.1',
+161 silly addNameRange     '5.1.0',
+161 silly addNameRange     '5.0.1',
+161 silly addNameRange     '4.11.8',
+161 silly addNameRange     '5.0.0',
+161 silly addNameRange     '4.11.7',
+161 silly addNameRange     '5.0.4-beta.3',
+161 silly addNameRange     '4.11.6',
+161 silly addNameRange     '5.0.4-beta.2',
+161 silly addNameRange     '5.0.4-beta.1',
+161 silly addNameRange     '5.0.4-beta.0',
+161 silly addNameRange     '4.11.5',
+161 silly addNameRange     '4.11.4',
+161 silly addNameRange     '5.0.3-beta.0',
+161 silly addNameRange     '5.0.2-beta.0',
+161 silly addNameRange     '4.11.3',
+161 silly addNameRange     '5.0.1-beta.3',
+161 silly addNameRange     '5.0.1-beta.2',
+161 silly addNameRange     '4.11.2',
+161 silly addNameRange     '4.11.1',
+161 silly addNameRange     '4.11.0',
+161 silly addNameRange     '5.0.1-beta.1',
+161 silly addNameRange     '4.10.4',
+161 silly addNameRange     '5.0.1-beta.0',
+161 silly addNameRange     '4.10.3',
+161 silly addNameRange     '4.10.2',
+161 silly addNameRange     '4.10.1',
+161 silly addNameRange     '4.10.0',
+161 silly addNameRange     '4.9.3',
+161 silly addNameRange     '4.9.2',
+161 silly addNameRange     '4.9.1',
+161 silly addNameRange     '5.0.0-beta.1',
+161 silly addNameRange     '4.9.0',
+161 silly addNameRange     '5.0.0-beta.0',
+161 silly addNameRange     '4.8.2',
+161 silly addNameRange     '4.8.1',
+161 silly addNameRange     '4.8.0',
+161 silly addNameRange     '4.7.7',
+161 silly addNameRange     '4.7.6',
+161 silly addNameRange     '4.7.5',
+161 silly addNameRange     '4.7.4',
+161 silly addNameRange     '4.7.3',
+161 silly addNameRange     '4.7.2',
+161 silly addNameRange     '4.7.1',
+161 silly addNameRange     '4.7.0',
+161 silly addNameRange     '4.6.1',
+161 silly addNameRange     '4.6.0',
+161 silly addNameRange     '4.5.0',
+161 silly addNameRange     '4.4.1',
+161 silly addNameRange     '4.4.0',
+161 silly addNameRange     '4.3.1',
+161 silly addNameRange     '4.3.0',
+161 silly addNameRange     '4.2.0',
+161 silly addNameRange     '4.1.8',
+161 silly addNameRange     '4.1.7',
+161 silly addNameRange     '4.1.6',
+161 silly addNameRange     '4.1.5',
+161 silly addNameRange     '4.1.4',
+161 silly addNameRange     '4.1.3',
+161 silly addNameRange     '4.1.2',
+161 silly addNameRange     '4.1.1',
+161 silly addNameRange     '4.1.0',
+161 silly addNameRange     '4.0.6',
+161 silly addNameRange     '4.0.5',
+161 silly addNameRange     '4.0.4',
+161 silly addNameRange     '4.0.3',
+161 silly addNameRange     '4.0.2',
+161 silly addNameRange     '4.0.1',
+161 silly addNameRange     '4.0.0',
+161 silly addNameRange     '3.8.10',
+161 silly addNameRange     '3.8.9',
+161 silly addNameRange     '3.8.8',
+161 silly addNameRange     '3.8.7',
+161 silly addNameRange     ... 161 more items ] ]
+162 silly addNamed ajv@5.5.2
+163 verbose addNamed "5.5.2" is a plain semver version for ajv
+164 silly mapToRegistry name ajv
+165 silly mapToRegistry using default registry
+166 silly mapToRegistry registry http://registry.cnpmjs.org/
+167 silly mapToRegistry data Result {
+167 silly mapToRegistry   raw: 'ajv',
+167 silly mapToRegistry   scope: null,
+167 silly mapToRegistry   escapedName: 'ajv',
+167 silly mapToRegistry   name: 'ajv',
+167 silly mapToRegistry   rawSpec: '',
+167 silly mapToRegistry   spec: 'latest',
+167 silly mapToRegistry   type: 'tag' }
+168 silly mapToRegistry uri http://registry.cnpmjs.org/ajv
+169 verbose addRemoteTarball http://r.cnpmjs.org/ajv/download/ajv-5.5.2.tgz not in flight; adding
+170 verbose addRemoteTarball [ 'http://r.cnpmjs.org/ajv/download/ajv-5.5.2.tgz',
+170 verbose addRemoteTarball   '73b5eeca3fab653e3d3f9422b341ad42205dc965' ]
+171 info retry fetch attempt 1 at 11:31:18
+172 info attempt registry request try #1 at 11:31:18
+173 http fetch GET http://r.cnpmjs.org/ajv/download/ajv-5.5.2.tgz
+174 http fetch 200 http://r.cnpmjs.org/ajv/download/ajv-5.5.2.tgz
+175 info retry will retry, error on last attempt: Error: read ECONNRESET
+176 silly fetchAndShaCheck shasum 73b5eeca3fab653e3d3f9422b341ad42205dc965
+177 silly rollbackFailedOptional Starting
+178 silly rollbackFailedOptional Finishing
+179 silly runTopLevelLifecycles Finishing
+180 silly install printInstalled
+181 verbose stack Error: shasum check failed for C:\Users\Shinea\AppData\Local\Temp\npm-11612-017dbe45\r.cnpmjs.org\ajv\download\ajv-5.5.2.tgz
+181 verbose stack Expected: 73b5eeca3fab653e3d3f9422b341ad42205dc965
+181 verbose stack Actual:   7043f6a3ad24227d150b3272a6370cf50d41c9dc
+181 verbose stack From:     http://r.cnpmjs.org/ajv/download/ajv-5.5.2.tgz
+181 verbose stack     at D:\Soft_Projects\Node\node_modules\npm\node_modules\sha\index.js:25:8
+181 verbose stack     at ReadStream.<anonymous> (D:\Soft_Projects\Node\node_modules\npm\node_modules\sha\index.js:72:7)
+181 verbose stack     at emitNone (events.js:91:20)
+181 verbose stack     at ReadStream.emit (events.js:185:7)
+181 verbose stack     at endReadableNT (_stream_readable.js:974:12)
+181 verbose stack     at _combinedTickCallback (internal/process/next_tick.js:80:11)
+181 verbose stack     at process._tickCallback (internal/process/next_tick.js:104:9)
+182 verbose cwd D:\Soft_Projects\WampServer\wamp\www\react-music-player
+183 error Windows_NT 10.0.16299
+184 error argv "D:\\Soft_Projects\\Node\\node.exe" "D:\\Soft_Projects\\Node\\node_modules\\npm\\bin\\npm-cli.js" "install" "extract-text-webpack-plugin" "--save-dev"
+185 error node v6.10.3
+186 error npm  v3.10.10
+187 error shasum check failed for C:\Users\Shinea\AppData\Local\Temp\npm-11612-017dbe45\r.cnpmjs.org\ajv\download\ajv-5.5.2.tgz
+187 error Expected: 73b5eeca3fab653e3d3f9422b341ad42205dc965
+187 error Actual:   7043f6a3ad24227d150b3272a6370cf50d41c9dc
+187 error From:     http://r.cnpmjs.org/ajv/download/ajv-5.5.2.tgz
+188 error If you need help, you may report this error at:
+188 error     <https://github.com/npm/npm/issues>
+189 verbose exit [ 1, true ]
